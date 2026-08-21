@@ -1,0 +1,9 @@
+# Core LLM provider SDKs
+openai>=1.0.0            # used by OpenAI GPT agents AND Grok agents (Grok uses the OpenAI-compatible API)
+google-generativeai>=0.7.0   # Gemini agents (legacy SDK; scripts also support the new `google-genai` client)
+
+# Utilities
+tqdm>=4.65.0            # progress bars (optional but recommended)
+
+# Optional: load API keys from a .env file
+# python-dotenv>=1.0.0
